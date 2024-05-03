@@ -1,8 +1,16 @@
+@import './styles/partials/typograpgy';
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.logoname {
+  font-family: sunrise;
+  color: red;
+  font-size: 10rem;
 }
 
 .logo {
