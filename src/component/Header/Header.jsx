@@ -4,17 +4,17 @@ const Header = () => {
 
     return (
         <div className='header'>
-            <ul> 
-                <li>
+            <ul className='header__list'> 
+                <li className='header__item'>
                     Home
                 </li>
-                <li>
+                <li className='header__item'>
                     Project
                 </li>
-                <li>
+                <li className='header__item'>
                     Resume
                 </li>
-                <li>
+                <li className='header__item'> 
                     About Me
                 </li>
             </ul>
