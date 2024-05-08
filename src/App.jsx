@@ -5,6 +5,7 @@ import './App.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Header from './component/Header/Header'
 import Sample from './component/Sample/Sample'
+import Home from './page/Home/Home'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/' element={<Sample/>}  />
+        <Route path='/' element={<Home/>}  />
+        <Route path='/about' element={<Sample/>}/>
       </Routes>
     </BrowserRouter>
   )
