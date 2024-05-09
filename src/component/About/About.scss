@@ -1,0 +1,10 @@
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/variable";
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: linear-gradient(180deg, $secondary-eerieblack, $primary-black);
+  position: relative;
+}

@@ -1,3 +1,4 @@
+import About from "../../component/About/About";
 import Header from "../../component/Header/Header";
 import Hero from "../../component/Hero/Hero";
 import "./Home.scss";
@@ -10,8 +11,10 @@ const Home = () => {
         <Hero />
       </section>
       <section>
-        
         <Hero />
+      </section>
+      <section>
+        <About />
       </section>
     </div>
   );
