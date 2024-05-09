@@ -1,18 +1,18 @@
+import Header from "../../component/Header/Header";
+import Hero from "../../component/Hero/Hero";
 import "./Home.scss";
 
 const Home = () => {
   return (
-    <>
-
+    <div className="home">
       <section>
-        <p>My name is</p>
-        <h1>Micheal Adeniyi</h1>
+        <Header />
+        <Hero />
       </section>
       <section>
-        <p>My name is</p>
-        <h1>Micheal Adeniyi</h1>
+        <Hero />
       </section>
-    </>
+    </div>
   );
 };
 
