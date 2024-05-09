@@ -8,10 +8,10 @@ const Header = () => {
       className="header"
       drag
       dragConstraints={{
-        top: -50,
-        left: -50,
-        right: 50,
-        bottom: 50,
+        top: 50,
+        left: 50,
+        right: -50,
+        bottom: -50,
       }}
     >
       <ul className="header__list">
