@@ -2,10 +2,15 @@
 @import '../../styles/partials/variable';
 @import '../../styles/partials/typograpgy';
 
+
+.home {
+    position: relative;
+}
+
 section {
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
+    width: 100vw;
+    scroll-snap-align: center;
+    overflow: hidden;
+  }
+

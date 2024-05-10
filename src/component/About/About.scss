@@ -1,0 +1,52 @@
+@import "../../styles/partials/mixins";
+@import "../../styles/partials/variable";
+
+.about {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(180deg, $secondary-eerieblack, $primary-black);
+
+
+  &__wrapper {
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    position: relative;
+  }
+
+  &__sliding  {
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+  }
+
+  &__textcontainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  &__h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 30px;
+    color: rebeccapurple;
+    letter-spacing: 10px;
+    line-height: 10px;
+    font-weight: 200;
+  }
+
+  &__p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+  }
+}
