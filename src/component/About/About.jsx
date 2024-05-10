@@ -25,8 +25,8 @@ const About = () => {
             front-end development, back-end integration, database management,
             and seamless deployment. I thrive in collaborative environments,
             working closely with cross-functional teams to deliver high-quality,
-            scalable, and user-friendly applications. With a passion for
-            continuous learning and staying ahead of the curve, <br/><br/>I actively
+            scalable, and user-friendly applications.<br/><br/> With a passion for
+            continuous learning and staying ahead of the curve, I actively
             explore emerging technologies and industry trends. I am driven by a
             desire to push boundaries and create cutting-edge solutions that
             redefine the technological landscape. Whether it's developing a
