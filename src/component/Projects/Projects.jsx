@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="wrapper">
-        <h1>Project & Featured Works</h1>
+        <h1 className="">Project & Featured Works</h1>
       </div>
         {data.map((project) => (
             <div>

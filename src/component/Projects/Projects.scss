@@ -8,5 +8,15 @@
   position: relative;
   background: linear-gradient(180deg, $secondary-eerieblack, $primary-black);
   background-position: center;
+}
+
+.wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 1.2rem;
 
 }
