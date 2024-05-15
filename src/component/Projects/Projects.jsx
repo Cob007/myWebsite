@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import "./Projects.scss";
+import Card from "../Card/Card";
 
 const data = [
   {
@@ -32,13 +33,13 @@ const Projects = () => {
 
   return (
     <div className="portfolio" ref={ref}>
-      <div className="wrapper">
+      <div className="portfolio__wrapper">
         <h1 className="">Project & Featured Works</h1>
+        <motion.div style={{ scaleX }} className="portfolio__progressbar"></motion.div>
+
       </div>
-        {data.map((project) => (
-            <div>
-                <h3>{project.title}</h3>
-            </div>
+        {data.map((project, i) => (
+            <Card  item={project} key={i}/>
         ))}
     </div>
   );
