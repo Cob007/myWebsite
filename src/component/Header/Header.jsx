@@ -17,13 +17,36 @@ const Header = () => {
       >
         <ul className="header__list">
           <li className="header__item">
-            <NavLink>
+            <NavLink
+              onClick={() => {
+                alert("Under Construction! Thanks")
+              }}
+            >
               <p> Home </p>
             </NavLink>
           </li>
-          <li className="header__item">Project</li>
-          <li className="header__item">Resume</li>
-          <li className="header__item">About Me</li>
+
+          <li className="header__item">
+            <a onClick={()=>{
+                alert("Under Construction! Thanks")
+
+            }}>
+              <p>Projects</p>
+            </a></li>
+            <li className="header__item">
+            <a onClick={()=>{
+                alert("Under Construction! Thanks")
+
+            }}>
+              <p>Resume</p>
+            </a></li>
+            <li className="header__item">
+            <a onClick={()=>{
+                alert("Under Construction! Thanks")
+
+            }}>
+              <p>About Me</p>
+            </a></li>
         </ul>
       </motion.div>
     </div>
