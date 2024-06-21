@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import "./Projects.scss";
 import Card from "../Card/Card";
+import { sliderVariants } from "../../constant/Constant";
 
 const data = [
   {
@@ -41,6 +42,14 @@ const Projects = () => {
         {data.map((project, i) => (
             <Card  item={project} key={i}/>
         ))}
+        <motion.div
+        className="hero__sliding"
+        variants={sliderVariants}
+        initial="initial"
+        animate="animate"
+      >
+        Currently Under Construction
+      </motion.div>
     </div>
   );
 };

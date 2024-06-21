@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import "./Card.scss";
-import { useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+
 const Card = (props) => {
   const { items } = props;
 
@@ -17,11 +18,11 @@ const Card = (props) => {
       <div className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt="" />
+            <img src={items?.img} alt="" />
           </div>
           <motion.div className="textContainer" style={{ y }}>
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
+            <h2>{items?.title}</h2>
+            <p>{items?.desc}</p>
             <button>See Demo</button>
           </motion.div>
         </div>
